@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  margin-top: 30px;
+  font-weight: 600;
+  color: #34495e;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Абзаци */
+p {
+  font-size: 1.1rem;
+  color: #555;
 }
+
+/* Зображення */
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 25px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.02);
+}
+
+/* Списки */
+ul, ol {
+  margin-left: 20px;
+  padding-left: 0;
+  color: #444;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+h1 span, h3 span {
+  font-size: 1.4rem;
+}
+
